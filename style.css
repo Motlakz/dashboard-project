@@ -32,6 +32,7 @@ span {
 }
 input {
     border: #808080;
+    outline: none;
 }
 input,
 button {
