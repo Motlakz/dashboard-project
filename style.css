@@ -30,6 +30,9 @@ body {
 span {
     padding-left: 10px;
 }
+input {
+    border: #808080;
+}
 input,
 button {
     margin-top: 40px;
