@@ -94,7 +94,10 @@ button:hover {
     padding: 15px;
 }
 .fa {
+    margin-top: 25px;
+    margin-left: 25px;
     border: 2px solid rgb(31, 230, 13);
     border-radius: 50%;
     padding: 15px;
+    cursor: pointer;
 }

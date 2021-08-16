@@ -1,0 +1,64 @@
+@import url(//db.onlinewebfonts.com/c/428912faef6cbf7a2c43c3952c8de813?family=VolteRounded-Bold);
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    color: rgb(31, 230, 13);
+    font-family: 'VolteRounded-Bold';
+    overflow: hidden;
+}
+h4 {
+    text-align: center;
+    padding: 20px;
+    background: blue;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+aside {
+    border: 2px solid rgb(31, 230, 13);
+    font-size: 20px;
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    left: 0;
+    background-color: #9b9db8;
+}
+
+aside ul {
+    border-bottom: 2px solid blue;
+}
+aside a {
+    display: block;
+    padding-left: 50px;
+    position: relative;
+    text-decoration: none;
+    line-height: 50px;
+    color: blue;
+    border-left: 3px solid transparent;
+    width: 82%;
+}
+aside ul li a:hover {
+    background: #3e45a1;
+    border-left: 3px solid cyan;
+    color: cyan;
+}
+aside ul ul li {
+    line-height: 30px;
+    border-bottom: none;
+}
+aside ul ul li a {
+    font-size: 15px;
+    padding-left: 80px;
+    width: 72%;
+}
+aside a span {
+    position: absolute;
+    right: 20px;
+    top: 30%;
+}
+.topbar {
+    display: flex;
+    width: 100%;
+}
