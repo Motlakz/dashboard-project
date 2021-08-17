@@ -101,3 +101,12 @@ button:hover {
     padding: 15px;
     cursor: pointer;
 }
+.login a {
+    text-decoration: none;
+        color: blue;
+}
+.login a:hover {
+    background: rgb(51, 174, 223);
+    color: rgb(67, 117, 18);
+    font-weight: 600;
+}

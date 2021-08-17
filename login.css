@@ -60,5 +60,27 @@ aside a span {
 }
 .topbar {
     display: flex;
+    padding: 32.5px;
     width: 100%;
+    background-color: lightgrey;
+}
+#searchbar {
+    width: 300px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 30px;
+    border: 1px solid#565767;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    outline: none;
+}
+.fa-user {
+    font-size: 40px;
+    border: 1px solid rgb(31, 230, 13);
+    border-radius: 50%;
+    padding: 8px;
+    position: absolute;
+    left: 95%;
+    top: 0.25%;
 }
