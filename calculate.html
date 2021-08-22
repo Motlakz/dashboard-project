@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content=
+         "width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./calculate.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="./calculate.js"></script>
+      <title>
+         CARBON FOOTPRINT CALCULATOR
+      </title>
+   </head>
+   <body>
+      <h1>CARBON FOOTPRINT CALCULATOR</h1>
+      <form id="form">
+         <!-- Details -->
+         <div class="form-control">
+            <label for="powerConsumption">
+				Power Consumption
+            </label>
+            <input type="text"
+               id="powerConsumption"
+               placeholder="Power Consumption" />
+         </div>
+         <div class="form-control">
+            <label for="gasConsumption">
+				Gas Consumption
+            </label>
+            <input type="text"
+               id="gasConsumption"
+               placeholder="Gas Consumption" />
+         </div>
+         <div class="form-control">
+            <label for="woodConsumption" id="woodConsumption">
+				Wood Consumption
+            </label>
+            <input type="text"
+               id="woodConsumption"
+               placeholder="Wood Consumption" />
+         </div>
+         <div class="form-control">
+            <label for="flyingEconomy">
+				Flying Economy
+            </label>
+			<input type="text"
+			id="flyingEconomy"
+			placeholder="Flying Economy" />
+		 </div>
+
+		 <div class="form-control">
+            <label for="flyingBusiness">
+				Flying Business
+            </label>
+            <input type="text"
+               id="flyingBusiness"
+               placeholder="Flying Business" />
+         </div>
+         <div class="form-control">
+            <label for="gasDriving">
+				Gas Driving
+            </label>
+            <input type="text"
+               id="gasDriving"
+               placeholder="Gas Driving" />
+         </div>
+         <div class="form-control">
+            <label for="dieselDriving">
+				Diesel Driving
+            </label>
+            <input type="text"
+               id="dieselDriving"
+               placeholder="Diesel Driving" />
+         </div>
+         <div class="form-control">
+            <label for="lpgDriving">
+				Lpg Driving
+            </label>
+			<input type="text"
+			id="lpgDriving"
+			placeholder="Lpg Driving" />
+		 </div>
+
+		 <div class="form-control">
+            <label for="plugIn">
+				Plug In
+            </label>
+            <input type="text"
+               id="plugIn"
+               placeholder="Plug In" />
+         </div>
+         <div class="form-control">
+            <label for="electric">
+				Electric
+            </label>
+            <input type="text"
+               id="electric"
+               placeholder="Electric" />
+         </div>
+         <div class="form-control">
+            <label for="_50ccScooter">
+				50cc Scooter
+            </label>
+            <input type="text"
+               id="_50ccScooter"
+               placeholder="50ccScooter" />
+         </div>
+         <div class="form-control">
+            <label for="_125ccMotor">
+				125cc Motor
+            </label>
+			<input type="text"
+			id="_125ccMotor"
+			placeholder="125cc Motor" />
+		 </div>
+
+		 <div class="form-control">
+            <label for="_500ccMotor">
+				500cc Motor
+            </label>
+            <input type="text"
+               id="_500ccMotor"
+               placeholder="500cc Motor" />
+         </div>
+         <div class="form-control">
+            <label for="_500ccPMotor">
+				500cc + Motor
+            </label>
+            <input type="text"
+               id="_500ccPMotor"
+               placeholder="500cc + Motor" />
+         </div>
+         <div class="form-control">
+            <label for="tram">
+				Tram
+            </label>
+            <input type="text"
+               id="tram"
+               placeholder="Tram" />
+         </div>
+         <div class="form-control">
+            <label for="bus">
+				Bus
+            </label>
+			<input type="text"
+			id="bus"
+			placeholder="Bus" />
+		 </div>
+
+		 <div class="form-control">
+            <label for="train">
+				Train
+            </label>
+            <input type="text"
+               id="train"
+               placeholder="Train" />
+         </div>
+         <div class="form-control">
+            <label for="metro">
+				Metro
+            </label>
+            <input type="text"
+               id="metro"
+               placeholder="Metro" />
+         </div>
+         <div class="form-control">
+            <label for="taxi">
+				Taxi
+            </label>
+            <input type="text"
+               id="taxi"
+               placeholder="Taxi" />
+         </div>
+         <div class="form-control">
+            <label for="gas">
+				Gas
+            </label>
+			<input type="text"
+			id="gas"
+			placeholder="Gas" />
+		 </div>
+		 <div class="form-control">
+            <label for="diesel">
+				Diesel
+            </label>
+			<input type="text"
+			id="diesel"
+			placeholder="Diesel" />
+		 </div>       
+      </form>
+      <table>
+         <caption>Results</caption>
+         <thead>
+           <tr>
+             <th scope="col">CO2 emission(kg)</th>
+             <th scope="col">Trees needed</th>
+             <th scope="col">Costs of trees</th>
+             <th scope="col">Return in 20yr</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td data-label="CO2 emission(kg)" id="c02">0</td>
+             <td data-label="Trees needed" id="t_needed">0</td>
+             <td data-label="Costs of trees" id="costs">0</td>
+             <td data-label="Return in 20yr" id="returns">0</td>
+           </tr>
+         </tbody>
+       </table>
+	  
+   </body>
+</html>
