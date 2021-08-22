@@ -1,4 +1,4 @@
-# Animated Counter
+# Responsive Sign Up/Sign In Form
 
 This is my first responsive sign in/sign up form.
 
