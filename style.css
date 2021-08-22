@@ -30,6 +30,10 @@ body {
 span {
     padding-left: 10px;
 }
+input {
+    border: #808080;
+    outline: none;
+}
 input,
 button {
     margin-top: 40px;
@@ -90,7 +94,19 @@ button:hover {
     padding: 15px;
 }
 .fa {
+    margin-top: 25px;
+    margin-left: 25px;
     border: 2px solid rgb(31, 230, 13);
     border-radius: 50%;
     padding: 15px;
+    cursor: pointer;
+}
+.login a {
+    text-decoration: none;
+        color: blue;
+}
+.login a:hover {
+    background: rgb(51, 174, 223);
+    color: rgb(67, 117, 18);
+    font-weight: 600;
 }
